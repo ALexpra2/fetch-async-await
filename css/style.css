@@ -66,3 +66,46 @@ header {
 #searchBtn:hover, #prevBtn:hover, #nextBtn:hover, #resetBtn:hover {
   opacity: 0.8;
 }
+
+.pokemon-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 300px;
+  margin-top: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  /* fondo bonito y suave para la card */
+  background: linear-gradient(to bottom right, #f2f2f2, #cccccc);
+}
+
+.imagen-pokemon {
+  width: 180px;
+  height: 180px;
+}
+
+.nombre-pokemon {
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.imagen-pokemon-card {
+  /* una sola imagen de un pokemon dentro de un div */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+}
+
+.datos-pokemon {
+  gap: 5px;
+}
+
